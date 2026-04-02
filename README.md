@@ -8,7 +8,7 @@ My plan is to start by getting a home page that allows you to start a game that 
 ---
 
 - **April 01 (15%):** Get files and folders prepped for project. (frontend and backend folders, c# api, 2 pages for homescreen and gameplay area, css file, service file, domain file, 2 ui files.)
-- [ ] Users can access website
+- [x] Users can access website
 - **April 04 (30%):** Add a button to take users to gameplay page and start on getting cards playable.
 - [ ] A user can click a button to go to another page.
 - [ ] User can view a hand of cards dealt to them.
