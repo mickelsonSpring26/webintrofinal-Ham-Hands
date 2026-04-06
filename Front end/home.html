@@ -7,7 +7,23 @@
     <script type="module" src="./home-ui.js"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body id="home">
+    <header>
+        <nav>
+            <a href="./home.html">
+                <img src="../Images/Logo.png" id="Header-Logo"/>
+            </a>
+        </nav>
+    </header>
     
+    <section id="form-section">
+        <img src="../Images/Logo.png" id="form-logo">
+        <button id="Create-Lobby">Start Game</button>
+        <form id="Join-Lobby-Form">
+            <button>Join Lobby</button>
+            <input type="number" required id="Form-Input" placeholder="room code">
+        </form>
+        <button id="Browse-Lobbies">Browse lobbies</button>
+    </section>
 </body>
 </html>
