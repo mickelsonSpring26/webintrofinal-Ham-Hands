@@ -13,3 +13,9 @@ export const SendData = async (data) => {
         body: JSON.stringify(contact),
     });
 }
+
+export const GetNewDeck = async () => {
+    const Deck = await fetch("http://localhost:5021/NewDeck");
+    const filteredDeck = await Deck.json();
+    return filteredDeck;
+}

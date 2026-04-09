@@ -5,11 +5,10 @@
 
 body {
     margin: auto;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     background-image: var(--body-background);
     background-attachment: fixed;
-    
 }
 
 header {
@@ -22,7 +21,7 @@ header {
 }
 
 #Header-Logo {
-    height: 150px;
+    height: 18vh;
     padding-left: 15px;
 }
 
@@ -38,4 +37,33 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#Game-Area {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+#Hand-Display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    align-self: flex-end;
+}
+
+.body-section {
+    height: 75vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+}
+
+.card {
+    height: 20vh;
+    border-radius: .7vh;
 }

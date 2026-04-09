@@ -11,8 +11,8 @@ My plan is to start by getting a home page that allows you to start a game that 
 - [x] Users can access website
 - **April 04 (30%):** Add a button to take users to gameplay page and start on getting cards playable.
 - [x] Artwork added to folders
-- [ ] A user can click a button to go to another page.
-- [ ] User can view a hand of cards dealt to them.
+- [x] A user can click a button to go to another page.
+- [x] User can view a hand of cards dealt to them.
 - **April 08 (40%):** Finish making cards playable and start styling.
 - [ ] A player can drag and drop a card onto the middle stack if its the right color.
 - [ ] Users will draw cards if they can't play a card.
