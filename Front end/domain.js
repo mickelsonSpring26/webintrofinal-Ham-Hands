@@ -11,6 +11,19 @@ export const DrawCard = () => {
     hand.push(deck[Math.floor(Math.random() * deck.length)]);
 }
 
+export const RemoveCard = (e) => {
+    const index = hand.findIndex(i => i.image === e.image);
+
+    if (index > -1) {
+    hand.splice(index, 1)
+    }
+}
+
+export const GrabStackTop = () => {
+    var Top = deck[Math.floor(Math.random() * deck.length)];
+    return Top;
+}
+
 export const LogDeck = () => {
     console.log(deck)
 }

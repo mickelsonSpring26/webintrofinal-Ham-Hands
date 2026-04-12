@@ -15,7 +15,7 @@ My plan is to start by getting a home page that allows you to start a game that 
 - [x] User can view a hand of cards dealt to them.
 - **April 08 (40%):** Finish making cards playable and start styling.
 - [ ] A player can drag and drop a card onto the middle stack if its the right color.
-- [ ] Users will draw cards if they can't play a card.
+- [x] Users will draw cards if they can't play a card.
 - **April 11 (50%):** Add a second player to game and add a way for them to join an existing game.
 - [ ] A player can input a code and join an existing game.
 - **April 15 (70%):** Finish adding the second player to a game. style pages further.
