@@ -17,7 +17,7 @@ export const SendData = async (data) => {
 }
 
 export const GetNewDeck = async () => {
-    const Deck = await fetch(`${baseUrl}/NewDeck``);
+    const Deck = await fetch(`${baseUrl}/NewDeck`);
     const filteredDeck = await Deck.json();
     return filteredDeck;
 }
