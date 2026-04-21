@@ -1,3 +1,5 @@
+const baseUrl = "https://one-oxl7.onrender.com"
+
 export const GetData = async () => {
     const data = await fetch();
     const filteredData = await data.json();
@@ -15,7 +17,7 @@ export const SendData = async (data) => {
 }
 
 export const GetNewDeck = async () => {
-    const Deck = await fetch("http://localhost:5021/NewDeck");
+    const Deck = await fetch(`${baseUrl}/NewDeck``);
     const filteredDeck = await Deck.json();
     return filteredDeck;
 }

@@ -1,4 +1,4 @@
-import { GetNewDeck } from "./home-api.js";
+import { GetNewDeck } from "./service-api.js";
 
 export const MakeDeck = async () => {
     deck = await GetNewDeck();
