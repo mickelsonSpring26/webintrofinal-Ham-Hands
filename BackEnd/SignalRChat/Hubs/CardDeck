@@ -1,0 +1,13 @@
+using System.Net.WebSockets;
+using Microsoft.AspNetCore.SignalR;
+
+namespace CardDeck.Hubs
+{
+    public class Deck : Hubs
+    {
+        public async Task SendMessage(string number, string color, string image)
+        {
+            await Clients.All.SendAsync("Play Card", number, color, image);
+        }
+    }
+}

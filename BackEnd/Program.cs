@@ -1,7 +1,11 @@
+using CardDeck.Hubs;
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddSignalR();
 builder.Services.AddCors(o => o.AddDefaultPolicy(p => p.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin()));
 var app = builder.Build();
 app.UseCors();
+app.MapHub<ChatHub>("/PlayGame");
 
 app.MapGet("/", () => "Hello World!");
 

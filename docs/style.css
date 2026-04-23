@@ -18,12 +18,26 @@ body {
 }
 
 header {
-    width: 100%;
+    width: 100vw;
     background-color: var(--header-color);
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-align: center;
+
     box-shadow: 0 0 5px 5px var(--header-color);
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8%;
+}
+
+#howPlay {
+    font-size: xx-large;
 }
 
 #Header-Logo {
