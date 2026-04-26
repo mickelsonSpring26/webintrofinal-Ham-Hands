@@ -4,6 +4,8 @@
     --text-color: rgb(61, 51, 51);
     --button-color: rgb(233, 170, 170);
     --input-color: rgb(241, 217, 217);
+    --how-To-Play: rgba(236, 84, 84, 0.473);
+    --link-color: rgba(228, 228, 171, 0.616);
 }
 
 body {
@@ -15,6 +17,9 @@ body {
     background-image: var(--body-background);
     background-attachment: fixed;
     color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header {
@@ -38,6 +43,29 @@ nav {
 
 #howPlay {
     font-size: xx-large;
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+#howPlayVisited {
+    font-size: xx-large;
+    color: var(--link-color);
+}
+
+
+#howToPlay {
+    margin-top: 10vh;
+    font-size: x-large;
+    width: 75vw;
+    text-align: center;
+}
+
+#howToPlay * {
+    padding: 10px;
+    background-color: var(--how-To-Play);
+    border-width: 10px;
+    border-color: var(--how-To-Play);
+    border-radius: 10px;
 }
 
 #Header-Logo {
@@ -100,11 +128,22 @@ nav {
     min-width: 3vh;
     min-height: 5vh;
     border-radius: .7vh;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .deck {
     height: 35vh;
     border-radius: 1.2vh;
+    transition: transform 0.3s ease;
+}
+
+.deck:hover {
+    transform: scale(1.05);
+    border-radius: 9.5px;
 }
 
 
